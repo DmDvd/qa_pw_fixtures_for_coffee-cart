@@ -3,7 +3,7 @@ export function priceFormatStr(dollars: number): string {
 }
 
 export function unitPriceFormatStr(dollars: number, count: number): string {
-  return `$${dollars.toFixed(2)} x ${count}`;
+  return `${dollars.toFixed(2)} x ${count}`;
 }
 
 export function totalPriceFormatStr(dollars: number): string {
